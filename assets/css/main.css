@@ -145,6 +145,16 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
+	#giticon {
+		color: rgba(255, 255, 255, 0.5);
+		border-bottom: 0;
+	}
+
+
+	#giticon:hover {
+		color: #16a085;
+	}
+
 		a:hover {
 			border-bottom-color: transparent;
 		}
@@ -2016,6 +2026,7 @@ input, select, textarea {
 		position: relative;
 	}
 
+
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
@@ -2303,6 +2314,11 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+	}
+
+	.icons a:hover {
+		outline: 0;
+		border: 0;
 	}
 
 		ul.icons li {
